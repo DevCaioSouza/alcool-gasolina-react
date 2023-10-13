@@ -1,0 +1,25 @@
+.container {
+  color: #fff;
+}
+
+.container img{
+  max-width: 100px;
+  display: flex;
+  /* margin: 0 auto; */
+}
+
+.result{
+  background-color: #00b63e;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 14px;
+  border-radius: 5px;
+  transition: transform 0.8s;
+}
+
+.result:hover{
+  transform: scale(1.1);
+}
